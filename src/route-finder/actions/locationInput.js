@@ -42,6 +42,7 @@ export const submitInputDetails = (start, drop) => {
         dispatch(submitStarted());
         try {
             let { token } = await submitPickUpDrop();
+            // now this api is trying til status !== "in progress". We can limit this by adding a flag
             do {
                 var { status, ...drivingResults } = await drivingRouteCall(token)
             } while (status === "in progress");

@@ -71,7 +71,7 @@ class LocationInputComponent extends Component {
                     // Error message
                     geo.failure && geo.failure.status &&
                     <div className="error-message">
-                        {JSON.stringify(geo.failure.message)}
+                        {geo.failure.message}
                     </div>
                 }
             </React.Fragment>

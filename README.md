@@ -17,7 +17,7 @@ Frontend includes the UI package for the application.
 Backend includes the mock api for the application.
 
 ## Google Maps Api configuration
-Add APIKEY in /src/config/config.js
+Add APIKEY in /src/route-finder/config/config.js
 
 ## Steps to run app 
 npm install

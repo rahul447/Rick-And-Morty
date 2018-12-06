@@ -7,7 +7,7 @@ class CrossComponent extends Component {
     render() {
         return (
             <React.Fragment>
-                <button style={margin: "5px"} onClick={() => this.props.resetInputDetails(this.props.inputType)}>
+                <button style={{ margin: "5px" }} onClick={() => this.props.resetInputDetails(this.props.inputType)}>
                     <i className="fa fa-times" ></i>X</button>
             </React.Fragment >
         )
