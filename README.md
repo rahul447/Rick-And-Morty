@@ -8,12 +8,6 @@ Below you will find some information on how to perform common tasks.<br>
 ## Pre-Requisties
 Backend [mockApi](https://github.com/lalamove/challenge/tree/master/mockApi) should be running on the system
 
-## Frontend
-Frontend includes the UI package for the application.
-
-## Backend
-Backend includes the mock api for the application.
-
 ## Google Maps Api configuration
 Add APIKEY in `/src/routeFinder/config/config.js`
 
