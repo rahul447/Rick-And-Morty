@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import routeFinder from '../route-finder/reducers';
+import routeFinder from '../routeFinder/reducers';
 
 // Root reducers
 export default combineReducers({

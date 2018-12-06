@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Main } from './route-finder';
+import { Main } from './routeFinder';
 import './App.css';
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import thunk from 'redux-thunk';
-import reducers from "./route-finder/reducers";
+import reducers from "./routeFinder/reducers";
 
 const store = createStore(reducers, applyMiddleware(thunk));
 
