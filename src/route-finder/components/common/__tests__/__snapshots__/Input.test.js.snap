@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputComponent Test render correctly 1`] = `
+Array [
+  <label>
+    <b>
+      Enter Start Location
+    </b>
+  </label>,
+  <br />,
+  <input
+    id="start"
+    name="start"
+    onChange={[Function]}
+    placeholder="Enter Start Location"
+    required={true}
+    type="text"
+    value="delhi"
+  />,
+]
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrossComponent Test render correctly 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "margin": "5px",
+    }
+  }
+>
+  <i
+    className="fa fa-times"
+  />
+  X
+</button>
+`;
